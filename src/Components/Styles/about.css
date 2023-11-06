@@ -1,0 +1,8 @@
+.aboutbg{
+    background-image: url("../../assets/about.png");
+    height: 100vh;
+    background-size:60%;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+}

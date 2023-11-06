@@ -1,0 +1,7 @@
+.jrbg{
+    background-image: url("../../assets/flow.png");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 2rem;
+}
