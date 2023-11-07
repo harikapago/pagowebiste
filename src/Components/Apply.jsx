@@ -38,7 +38,7 @@ function Apply() {
         <div className="col-12 col-md-7">
     <form onSubmit={handleSubmit}>
         <h5>Personal Information</h5>
-      <label className="col-4">Name
+      <label className="col-4" style={{marginRight:"50px"}}>Name
       <span style={{ color: 'red' }}>*</span>
       <input 
         type="text" 
@@ -48,7 +48,7 @@ function Apply() {
         onChange={handleChange}
       />
       </label>
-      <label className="col-4">Job Title
+      <label className="col-4" style={{marginRight:"50px"}}>Job Title
         <input 
           type="text" 
           name="jobtitle" 
@@ -56,7 +56,7 @@ function Apply() {
           onChange={handleChange}
         />
         </label>
-        <label className="col-4">Phone
+        <label className="col-4" style={{marginRight:"50px"}}>Phone
         <span style={{ color: 'red' }}>*</span>
         <input 
           type="number" 
@@ -66,7 +66,7 @@ function Apply() {
           onChange={handleChange}
         />
         </label>
-        <label className="col-4">Email
+        <label className="col-4" style={{marginRight:"50px"}}>Email
         <span style={{ color: 'red' }}>*</span>
         <input 
           type="email" 
@@ -76,7 +76,7 @@ function Apply() {
           onChange={handleChange}
         />
         </label>
-        <label className="col-4">City
+        <label className="col-4" style={{marginRight:"50px"}}>City
         <input 
           type="text" 
           name="city" 
